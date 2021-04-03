@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import './App.css';
+import Navbar from './components/navbar';
 
 class App extends Component {
   constructor(props) {
@@ -20,17 +21,21 @@ class App extends Component {
       this.setState({
         message: response.data.message
       });
-    }) 
+    })
   }
 
   render() {
     return (
-      <div className="App">
-        <h1>{ this.state.message }</h1>
-        <button onClick={this.fetchData} >
-          Fetch Data
-        </button>        
-      </div>
+      <>
+        <Navbar/>
+
+        <div className="App">
+          <h1>{ this.state.message }</h1>
+          <button onClick={this.fetchData} >
+            Fetch Data
+          </button>
+        </div>
+      </>
     );
   }
 }
