@@ -33,7 +33,7 @@ const Navbar = () => {
           variant="h6"
           className={classes.title}
         >
-          News
+          Leaf It To Me
         </Typography>
         <Button color="inherit">Login</Button>
       </Toolbar>
