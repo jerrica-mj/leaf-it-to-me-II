@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import './App.css';
 import Navbar from './components/navbar';
+import PlantListItem from './components/plants/plantListItem';
 
 class App extends Component {
   constructor(props) {
@@ -35,6 +36,10 @@ class App extends Component {
         <button onClick={this.fetchData} >
           Fetch Data
         </button>
+
+        <br />
+
+        <PlantListItem />
 
       </div>
     );
