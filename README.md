@@ -1,4 +1,10 @@
-# React + Express No-Fluff Boilerplate
+# Leaf It To Me II
+
+Leaf It To Me II is a plant care web application. This project is a remake of a final project created as part of the Lighthouse Labs Web Development Bootcamp, in order to explore different frameworks and languages.
+
+This project is built using React, React Router, with Material UI on the front end. The back end uses Express.
+
+## React-Express Boilerplate
 
 A boilerplate project for anyone interested in making a project that uses React and Express.
 
